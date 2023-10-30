@@ -1,22 +1,12 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
+import React from 'react';
 import './index.css';
+import {App} from "./App";
 
-// const contenido = (
-// <div>
-//   <h1> Titulo</h1>
-// <div>hola erick</div>
-// </div>
-//   );
-function Componente(){
-  return(
-    <div>
-  <h1> Titulo</h1>
-<div>hola Componente erick</div>
-</div>
-  );
-}
-ReactDOM.render(<Componente/>,document.getElementById('root'));
+
+ReactDOM.render(
+<App/>,
+  document.getElementById('root'));
 
  
 
